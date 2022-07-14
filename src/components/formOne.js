@@ -68,6 +68,7 @@ const FormOne = () => {
                     name="firstname"
                     value={values.firstname}
                     onChange={handleChange}
+                    onBlur={handleBlur}
                   />
                   {errors.firstname && touched.firstname ? (
                     <span>{errors.firstname}</span>
